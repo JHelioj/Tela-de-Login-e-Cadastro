@@ -14,3 +14,17 @@
     align-items: center;
     justify-content: center;
   }
+
+  .container {
+    background-color: whitesmoke;
+    padding: 6px;
+    width: 350px;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 0 darkgray;
+  }
