@@ -1,38 +1,62 @@
   @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;0,900;1,100;1,200&display=swap');
 
   * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'poppins', sans-serif;
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'poppins', sans-serif;
   }
 
   body {
-    width: 100vw;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+      width: 100vw;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
   }
 
   .container {
-    background-color: whitesmoke;
-    padding: 6px;
-    width: 350px;
-    height: 450px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    position: relative;
-    overflow: hidden;
-    border-radius: 10px;
-    box-shadow: 0 0 20px 0 darkgray;
+      background-color: whitesmoke;
+      padding: 6px;
+      width: 350px;
+      height: 450px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      position: relative;
+      overflow: hidden;
+      border-radius: 10px;
+      box-shadow: 0 0 20px 0 darkgray;
   }
 
   form {
-    position: relative;
-    margin-top: 80px;
-    transition: .5s;
-    width: 300px;
-    height: 400px;
+      position: relative;
+      margin-top: 80px;
+      transition: .5s;
+      width: 300px;
+      height: 400px;
+  }
+
+  .botões {
+      margin-top: 40px;
+      position: relative;
+      border-radius: 30px;
+      box-shadow: 0 0 7px 0 blueviolet;
+  }
+
+  .botões button {
+      cursor: pointer;
+      background: transparent;
+      border: none;
+      position: relative;
+      padding: 10px 29px;
+  }
+
+  .btnColor {
+      position: absolute;
+      width: 100px;
+      height: 100%;
+      background: linear-gradient(to right, #5956e9, #a963f8);
+      border-radius: 30px;
+      transition: .3s;
   }
