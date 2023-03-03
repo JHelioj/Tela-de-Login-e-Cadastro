@@ -30,7 +30,7 @@
   }
 
   form {
-      position: relative;
+      position: absolute;
       margin-top: 80px;
       transition: .5s;
       width: 300px;
@@ -59,4 +59,26 @@
       background: linear-gradient(to right, #5956e9, #a963f8);
       border-radius: 30px;
       transition: .3s;
+  }
+
+  input[type="text"], input[type="password"] {
+      border: none;
+      margin-top: 40px;
+      border-radius: 60px;
+      padding: 8px 0 8px 35px;
+      outline: none;
+      width: 100%;
+  }
+
+  button[type="submit"] {
+    background: #a963f8;
+    color: white;
+    border-radius: 30px;
+    width: 100%;
+    border: none;
+    outline: none;
+    padding: 8px 0 8px 15px;
+    font-size: 15px;
+    margin-top: 40px;
+    cursor: pointer;
   }
