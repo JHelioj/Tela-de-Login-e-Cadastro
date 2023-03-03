@@ -82,3 +82,35 @@
     margin-top: 40px;
     cursor: pointer;
   }
+
+  .check {
+    margin: 10px 0 0 5px;
+    width: 80%;
+    font-size: 13px;
+  }
+
+  #login {
+    left: 25px;
+  }
+
+  #cadastro {
+    left: 450px;
+  }
+
+  i {
+    position: absolute;
+    left: 0;
+    padding: 10px 10px;
+  }
+
+  .iEmail {
+    top: 40px;
+  }
+
+  .iPassword {
+    top: 114px;
+  }
+
+  .iPassword2 {
+    top: 190px;
+  }
