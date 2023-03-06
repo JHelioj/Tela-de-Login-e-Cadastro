@@ -8,7 +8,7 @@ document.querySelector('#btnLogin').addEventListener('click', () => {
     btnColor.style.left = "0px"
 });
 
-document.querySelector('#btnCadastre ').addEventListener('click', () => {
+document.querySelector('#btnCadastre').addEventListener('click', () => {
     formLogin.style.left = "-450px"
     formCadastro.style.left = "25px"
     btnColor.style.left = "110px"
